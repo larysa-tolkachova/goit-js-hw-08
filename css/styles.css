@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+ul, li {
+  list-style-type: none;
+}
+
+.gallery {
+  width: 1440px;
+  height: 696px;
+  padding: 24px 156px; 
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px 24px;
+}
+
+.gallery-link {
+  flex-basis: calc((100% - 48px)/3);
+}
+
+.gallery-image{
+  display: block;
+  width: 360px;
+  height: 200px;
+  cursor: url('../images/vector.png'), pointer;
+}
+
+.modal {
+  width: 1440px;
+  height: 696px;
+  background-color: #2E2F42CC;
+  padding: 28px 164px;
+}
+
